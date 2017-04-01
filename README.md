@@ -1,6 +1,6 @@
 # Hidro Chico
 
-An application to display altimetry São Francisco river altimetry data.
+An application to display São Francisco river altimetry data.
 
 ### How to build the project locally
 
