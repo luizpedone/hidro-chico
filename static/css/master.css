@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  color: #ecf0f1;
+  background: #3498db;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 30px;
+}
+
+.map {
+  height: 700px ;
+}
+
+.controls {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #ecf0f1;
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "date": 1491076531,
+      "origin": "ANA",
+      "altitude": 880
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-43.9111, -19.5597]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "date": 1454371200,
+      "origin": "ANA",
+      "altitude": 890
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-44.2258, -18.3061]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "date": 1454371200,
+      "origin": "Envisat",
+      "altitude": 710
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-43.8228, -20.0239]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "date": 1454371200,
+      "origin": "ANA",
+      "altitude": 870
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-44.0247, -19.2172]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "date": 1454371200,
+      "origin": "ANA",
+      "altitude": 700
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-44.7139, -17.5947]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "date": 1454371200,
+      "origin": "ANA",
+      "altitude": 680
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-44.0383, -19.0111]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "date": 1454371200,
+      "origin": "Envisat",
+      "altitude": 590
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-43.8147, -19.705]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "date": 1422835200,
+      "origin": "ANA",
+      "altitude": 480
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -44.1939, -18.6728 ]
+    }
+  }
+]
