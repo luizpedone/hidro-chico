@@ -15,5 +15,18 @@ $('#refresh-button').click(function() {
     stationList.push($(this).val());
   });
 
-  stations.load(stationList);
-})
+  var startDate = convertToTimestamp($('#start_date').val());
+  var endDate = convertToTimestamp($('#end_date').val());
+
+  stations.load(stationList, startDate, endDate);
+});
+
+function convertToTimestamp(date) {
+  var period = date.split("/");
+
+  if (period[0] !== undefined && period[1] !== undefined && period[2] !== undefined) {
+    return Date.parse(period[3] + "-" + period[2] + "-" + period[1] + " 00:00:00")/1000
+  }
+
+  return "";
+}

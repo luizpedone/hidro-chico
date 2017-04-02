@@ -10,10 +10,10 @@ function Stations(map) {
     return this.layer;
   }
 
-  this.load = function(origin){
+  this.load = function(origin, stardDate, endDate){
     $.ajax({
       dataType: "json",
-      url: buildUrl(origin),
+      url: buildUrl(origin, stardDate, endDate),
       success: function(data) {
           self.layer = L.geoJSON(data, {
             onEachFeature: setPopup,
@@ -39,10 +39,10 @@ function Stations(map) {
     if (origin !== undefined) {
       params.stations = origin.toString();
     }
-    if (start_date !== undefined) {
+    if (start_date !== '') {
       params.start_date = start_date;
     }
-    if (end_date !== undefined) {
+    if (end_date !== '') {
       params.end_date = end_date;
     }
     return '/api/stations?' + $.param(params);
